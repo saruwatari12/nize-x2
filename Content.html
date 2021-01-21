@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIZE-X Fanpage</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div id=nav>
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+ 
+                <ul class="ul-nav">
+                    <!-- <li><img src="images/logo.png" class="logo"></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="Content.html">Content</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="td-container">
+        <div class="content">
+            <div class="topic-heading">
+                <h2 style="text-align: start;">ระบบปฎิบัติการ Linux สามารถรันบน Apple M1 ได้แล้ว!!!</h2>
+            </div>
+            <div style="display: flex;">
+                <div class="content-block" style="width:60%;">
+                    <div class="img-block">
+                        <img src="images/M1.jpg" class="header-img">
+                    </div>
+                    <div class="content-text">
+                        <p style="color: rgb(226 225 225);">
+                            ในวันนี้ได้มีผู้ใช้ทวิตเตอร์ชื่อ @CorelliumHQ ออกมาโพสต์เกี่ยวกับระบบปฎิบัติการ Linux ที่สามารถรันบน Apple M1 <br>
+                            ซึ่งคาดว่าทางผู้ใช้ทวิตเตอร์ท่านนี้จะปล่อยขั้นตอนการติดตั้ง Linux บน Apple M1 ในเร็วๆนี้ <br>
+                            สามารติดตามได้ที่ <a style="text-decoration: none;" href = "https://twitter.com/CorelliumHQ/status/1350275504566370312/"> Here </a>
+                        </p>
+                    </div>
+                </div >
+                <div class="content-side" style="padding: 40px;">
+                   <div class="content-box">
+                       <div class="box-img">
+                           <img src="images/MSI.jpg" style="width: 70px; height: auto;">
+                           <div style="display: grid;">
+                                <p class="p-content-box"><a href="Content2.html">RTX 3060 ขนาดเล็ก!!</a></p>
+                               <br>
+                               <p class="sub-topic-example">MSI ได้เปิดตัวการ์ดจอ RTX 3060 ขนาดเล็กสำหรับผู้ที่ชื่นชอบการประกอบคอมเครื่องเล็ก</p>
+                           </div>
+                       </div>
+               
+                       <div class="box-img">
+                           <img src="images/intel11.jpg" style="width: 70px; height: auto;">
+                            <div style="display: grid;">
+                                <p class="p-content-box"><a href="Content3.html">หลุดผลทดสอบ Intel Gen 11th</a></p>
+                                <br>
+                                <p class="sub-topic-example">ล่าสุดมีชาวจีนได้ทดสอบประสิทธิภาพของ CPU Intel Core i9-11900K ซึ่งมีการทดสอบด้าน Productivity และ Gaming
+                                คร่าวๆมาให้ชมกันซึ่งต้องบอกก่อนว่าตัว CPU ที่นำมาทดสอบนี้ยังเป็นตัวพัฒนาอยู่นะครับอย่าเพิ่งใจร้อนกันไป</p>
+                            </div>
+                       </div>
+                       <div class="box-img">
+                           <img src="images/intel.png" style="width: 70px; height: auto;">
+                           <div style="display: grid;">
+                            <p class="p-content-box"><a href="Content4.html">Intel กำลังเจรจากับ TSMC?</a></p>
+                            <br>
+                            <p class="sub-topic-example">ดูเหมือนว่า Intel ต้องเร่งทำผลงานในด้านหน่วยประมวลผลมากขึ้นครับ หลังจากที่ AMD แซงในการขายหน่วยประมวลผล PC ไปแล้ว รวมถึง
+                            Apple ก็หันมาผลิต Apple Silicon</p>
+                        </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p5>
+            <div class="footer_nav">
+                <p5 class="footer_para2">จัดทำโดย Phuwanai Sipalat</p5>
+                <p5 class="footer_para2">Facebook : Phuwanai Sipalat</p5>
+                <p5 class="footer_para2">Email : puwwanai62@gmail.com</p5>
+            </div>
+        </p5>
+    </div>
+    <script>
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('ul').addClass('black');
+            }
+            else {
+                $('ul').removeClass('black');
+            }
+        })
+
+    </script>
+    <script>
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('li a').addClass('black');
+            }
+            else {
+                $('li a').removeClass('black');
+            }
+        })
+    </script> 
+</body>
+</html>

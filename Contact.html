@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIZE-X Fanpage</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div id="header">
+            <div id=nav>
+                <nav>
+                    <!-- <img src="images/logo.png" class="logo"> -->
+     
+                    <ul class="ul-nav">
+                    <!-- <li><img src="images/logo.png" class="logo"></li> -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Content.html">Content</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a class="active" href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="td-container">
+        <div class="content">
+            <div class="con-right" style="width:100%; display: flex;">
+                <div class="content-side-right">
+                    <div class="contact-all">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FThisSword.Daitaedaima%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+                        </div>
+                    </div>
+                <div class="con-left-list">
+                    <div class="content-side-left">
+                        <div class="contact-row-text">
+                            <img src="images/logo/fb.png" style="width: 50px; height: 50px;">
+                            <div>
+                                <h2 class="contact-text">Phuwanai Sipalat</h2>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="content-side-left">
+                        <div class="contact-row-text">
+                            <img src="images/logo/line.png" style="width: 50px; height: 50px;">
+                            <div>
+                                <h2 class="contact-text">puwwanaiocz</h2>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="content-side-left">
+                        <div class="contact-row-text">
+                            <img src="images/logo/ig.png" style="width: 50px; height: 50px;">
+                            <div>
+                                <h2 class="contact-text">nize-x2</h2>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="td-3rd-list">
+                     <div class="third-lay">
+                          <iframe width="400" height="300" src="https://www.youtube.com/embed/42zTyxOxRkg" frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen></iframe>
+                     </div>
+                 </div>
+                </div>
+                <div class="content-bottom">
+                    <p style="margin-left: 20px;">
+                        Hello HTML5
+                    </p>
+                </div>     
+
+        </div>
+    </div>
+
+        <div id="footer">
+        <p5>
+            <div class="footer_nav">
+                <p5 class="footer_para2">จัดทำโดย Phuwanai Sipalat</p5>
+                <p5 class="footer_para2">Facebook : Phuwanai Sipalat</p5>
+                <p5 class="footer_para2">Email : puwwanai62@gmail.com</p5>
+            </div>
+        </p5>
+    </div>
+    <script>
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('ul').addClass('black');
+            }
+            else {
+                $('ul').removeClass('black');
+            }
+        })
+
+    </script>
+    <script>
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('li a').addClass('black');
+            }
+            else {
+                $('li a').removeClass('black');
+            }
+        })
+
+    </script>    
+</body>
+</html>

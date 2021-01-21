@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIZE-X Fanpage</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div id=nav>
+            <nav>
+                <ul class="ul-nav">
+                    <!-- <li><img src="images/logo.png" class="logo"></li> -->
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="Content.html">Content</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="td-container">
+        <div class="content">
+            
+            
+            <img class="img-main" src="https://scontent.fbkk21-1.fna.fbcdn.net/v/t1.0-9/132271858_3268610639911167_3793325685273740866_o.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGoLKcgXU5KhqYRO-4Hqe8Say3o2eSMGyxrLejZ5IwbLGodGQolJ_2xNCFb9MfM-zla149hpwnEJ3gpBq9ZlEtp&_nc_ohc=LOKqqjfcemwAX-66S7k&_nc_ht=scontent.fbkk21-1.fna&oh=df2996ceba4918094516eb0981836136&oe=60267E8D" style="width:400px;height:400px;">
+                
+            
+            <div class="des-main">
+                <h2 style="text-align: center;">ยินดีต้อนรับ</h2>
+                <br>
+                <p2 >เว็บไซต์นี้จะเน้นไปด้านของเทคโนโลยีในเรื่องต่างๆที่ท่านสนใจ</p2>
+
+            </div>
+            </div>
+        
+        </div>
+    <div id="footer">
+        <p5>
+            <div class="footer_nav">
+                <p5 class="footer_para2">จัดทำโดย Phuwanai Sipalat</p5>
+                <p5 class="footer_para2">Facebook : Phuwanai Sipalat</p5>
+                <p5 class="footer_para2">Email : puwwanai62@gmail.com</p5>
+            </div>
+        </p5>
+    </div>
+    <script>
+        $(window).on("scroll",function() {
+            if($(window).scrollTop()) {
+                $('ul').addClass('black');
+            }
+            else {
+                $('ul').removeClass('black');
+            }
+        })
+
+    </script>
+    <script>
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop()) {
+                $('li a').addClass('black');
+            }
+            else {
+                $('li a').removeClass('black');
+            }
+        })
+
+    </script>
+</body>
+</html>
